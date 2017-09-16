@@ -8,13 +8,13 @@ I'm trying to learn assembly so i collect sources here, feel free to use it! I w
 
 #### How to use NASM Compiler and linker ? It basically depends on platform but i realize that if u are learning asm you have 64 bit architecture soooo.... 
 
-```sh $ nasm -felf64 input_file.asm ``` 
+```sh $ $ nasm -felf64 input_file.asm ``` 
 
 In case when u dont use C standard library just fire a linker : 
 
-```sh $ ld input_file.o ``` 
+```sh $ $ ld input_file.o ``` 
 
 Or if u used C standard library :
 
-```sh $ gcc -m64 input_filed.o ```
+```sh $ $ gcc -m64 input_filed.o ```
 
